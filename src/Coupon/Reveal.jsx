@@ -1,11 +1,21 @@
 import { Disclosure } from "@headlessui/react";
 import { FaArrowDown } from "react-icons/fa";
-import { copyToClipboard } from "copy-to-clipboard";
 
 export default function Reveal({ coupon }) {
   const copyToClipboardHandler = (text) => {
-    copyToClipboard(text);
-    alert("Coupon Copied to clipboard");
+    try {
+      const tempInput = document.createElement("input");
+      tempInput.value = text;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      tempInput.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      document.body.removeChild(tempInput);
+
+      alert("Coupon Copied to clipboard");
+    } catch (error) {
+      console.error("Failed to copy to clipboard", error);
+    }
   };
 
   return (
