@@ -43,7 +43,7 @@ const Signup = () => {
             onChange={(e) => setConfirmPassword(e.target.value)}  
           />
            <button className='bg-[#F84C60] text-black font-semibold p-2 md:w-[30%] w-[50%] rounded-full hover:bg-red-800 hover:text-white'>Create Account</button>
-          <p>Or </p>
+          <p>Or</p>
           <p>Already have an account💨  </p>
           <button
           onClick={() => (window.location.href = '/login')}

@@ -1,6 +1,7 @@
 import Landing from "./Components/Landing";
 import Login from "./Auth/Login";
 import Signup from "./Auth/Signup";
+import Review from "./Reviews/Review";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
             <Route index element={Landing()} />
             <Route path="login" element={<Login />} />
             <Route path="signup" element={<Signup />} />   
+            <Route path="review" element={<Review />} />
           </Route>
         </Routes>
       </BrowserRouter>
