@@ -7,9 +7,13 @@ const[ username, setUsername ] = useState('');
 const[ password, setPassword ] = useState('');
 
   return (
-    <div className='bg-gray-800 flex flex-col items-center justify-center min-h-screen w-full background-image'>
 
-      <div className='bg-[#98CABD] flex flex-col items-center justify-center lg:w-2/5 w-11/12 gap-4 rounded-lg text-black bg-opacity-80 p-4'>
+    <div className='flex w-full items-center justify-center min-h-screen bg-[#F5F5DC]'>
+      <div className='w-1/3 lg:block hidden'>
+      <img src="login.png" alt="logo" className='w-[90%] h-auto' />
+      </div>
+      <div className='flex flex-col items-center justify-center gap-8 lg:w-1/2 w-full px-6 py-4'>
+         <div className='bg-[#98CABD] flex flex-col items-center justify-center w-full gap-4 rounded-lg text-black bg-opacity-80 p-4'>
 
         <p className='text-center font-bold text-3xl italic mt-4'>SayIt</p>
         <p className='text-xl italic'>Where Apparel Meets Opinions</p>
@@ -38,8 +42,11 @@ const[ password, setPassword ] = useState('');
            className='bg-[#F84C60] text-black font-semibold p-2 w-[30%] rounded-full hover:bg-red-800 hover:text-white mb-2'>Sign Up</button>
 
       </div>
+      </div>
       
-    </div>
+    </div> 
+    
+   
   )
 }
 
