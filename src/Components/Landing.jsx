@@ -9,7 +9,7 @@ const Landing = () => {
       <div className='flex flex-col items-center justify-center gap-8 lg:w-1/2 w-full px-6 py-4'>
         <p className='text-gray-800 text-7xl font-bold'>SayIt</p>
         <p className='text-2xl italic'>Where Apparel Meets Opinions</p>
-        <p className='text-white text-lg text-center font-bold'>Welcome to SayIt, where apparel meets opinions! SayIt is your ultimate destination for exploring and comparing clothing products from various brands. We understand that choosing the perfect outfit involves more than just style; it's about expressing yourself and making informed decisions. With SayIt, you can browse a diverse collection of clothing items, read user reviews, and easily compare products from different brands. Elevate your shopping experience by embracing the power of community insights. Discover, express, and make informed fashion choices at SayIt!</p>
+        <p className='text-blue-800 text-lg text-center font-bold'>Welcome to SayIt, where apparel meets opinions! SayIt is your ultimate destination for exploring and comparing clothing products from various brands. We understand that choosing the perfect outfit involves more than just style; it's about expressing yourself and making informed decisions. With SayIt, you can browse a diverse collection of clothing items, read user reviews, and easily compare products from different brands. Elevate your shopping experience by embracing the power of community insights. Discover, express, and make informed fashion choices at SayIt!</p>
 
         <button
         onClick={() => (window.location.href = '/signup')}
