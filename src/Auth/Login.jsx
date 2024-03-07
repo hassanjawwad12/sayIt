@@ -34,12 +34,12 @@ const[ password, setPassword ] = useState('');
             onChange={(e) => setPassword(e.target.value)}
           />
 
-          <button className='bg-[#F84C60] text-black font-semibold p-2 w-[30%] rounded-full hover:bg-red-800 hover:text-white'>Login</button>
+          <button className='bg-[#E97451] text-black font-semibold p-2 w-[30%] rounded-full hover:bg-orange-600 hover:text-white'>Login</button>
           <p>Or</p>
           <p>New on Say it ⁉ </p>
           <button
           onClick={() => (window.location.href = '/signup')}
-           className='bg-[#F84C60] text-black font-semibold p-2 w-[30%] rounded-full hover:bg-red-800 hover:text-white mb-2'>Sign Up</button>
+           className='bg-[#E97451] text-black font-semibold p-2 w-[30%] rounded-full hover:bg-orange-600 hover:text-white mb-2'>Sign Up</button>
 
       </div>
       </div>

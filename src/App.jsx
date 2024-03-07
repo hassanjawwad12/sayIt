@@ -3,6 +3,7 @@ import Login from "./Auth/Login";
 import Signup from "./Auth/Signup";
 import Review from "./Reviews/Review";
 import Generate from "./Coupon/Generate";
+import Explore from "./Explore/Explore"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <Route path="signup" element={<Signup />} />   
             <Route path="review" element={<Review />} />
             <Route path="generate" element={<Generate />} />
+            <Route path="explore" element={<Explore/>} />
             <Route path="*" element={<h1>Not Found</h1>} />
           </Route>
         </Routes>

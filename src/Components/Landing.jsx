@@ -13,7 +13,7 @@ const Landing = () => {
 
         <button
         onClick={() => (window.location.href = '/signup')}
-         className='bg-[#F84C60] text-black font-semibold p-3 lg:w-[30%] w-1/2 rounded-full hover:bg-red-800 hover:text-white'>Get Started ↪ </button>
+         className='bg-[#E97451] text-black font-semibold p-3 lg:w-[30%] w-1/2 rounded-full hover:bg-orange-600 hover:text-white'>Get Started ↪ </button>
         
       </div>
       

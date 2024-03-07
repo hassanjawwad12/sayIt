@@ -25,7 +25,7 @@ const Generate = () => {
             <Reveal coupon={coupon} />
           ) : (
             <button
-              className="bg-[#F84C60] text-black rounded-full p-4 hover:bg-blue-800 hover:text-white hover:font-bold"
+              className="bg-[#E97451] text-black rounded-full p-4 hover:bg-blue-800 hover:text-white hover:font-bold"
               onClick={generateCoupon}
             >
               Get Discount Coupon
